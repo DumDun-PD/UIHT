@@ -1,0 +1,197 @@
+.services-section {
+  height: 1172px;
+  margin-inline: auto;
+  padding: 72px 0 72px 0;
+  color: #4b4b4b;
+  border-bottom: 2px;
+  background: url("/images/bg3.png") center top / cover no-repeat;
+}
+
+.services-section > .container {
+  width: 1384px;
+  max-width: 1384px;
+  color: #1b4788;
+}
+
+.services-title {
+  margin: 0 0 24px;
+  font-size: 32px;
+  color: #1b4788;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -2%;
+}
+
+.services-introduction {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+
+  font-weight: 400;
+  line-height: 27px;
+  width: 1360px;
+  height: 81px;
+  margin: 0;
+  color: #4b4b4b;
+  letter-spacing: 0%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.services-cards {
+  gap: 19px;
+  margin-top: 63px;
+}
+
+.service-card {
+  flex: 0 0 416px;
+  height: 601.33px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 17px 0px #00000014;
+}
+
+.service-card .card-body {
+  padding: 24px;
+}
+
+.service-category {
+  padding: 4px 8px;
+  background-color: #bddcf3;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.service-card-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: -3%;
+  font-family: "be vietnam pro", sans-serif;
+  margin: 12px 0;
+}
+
+.service-card-image {
+  display: block;
+  width: 368px;
+  height: 245.33px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.service-card-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #4b4b4b;
+  text-align: justify;
+  margin: 12px 0 24px;
+}
+
+.service-detail-button {
+  gap: 4px;
+  width: 149px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #1b4788;
+  padding: 8px 16px;
+  color: #1b4788;
+  font-size: 16px;
+}
+
+.service-card-featured {
+  flex-basis: 490px;
+  height: 682px;
+}
+
+.service-card-featured .service-category {
+  padding: 4px 12px;
+  font-size: 16px;
+}
+
+.service-card-featured .service-card-title {
+  margin-top: 16px;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+
+.service-card-featured .service-card-image {
+  width: 411px;
+  height: 294px;
+  border-radius: 16px;
+}
+.service-card-featured .service-card-description {
+  width: 411px;
+  height: 108px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+
+/* mui ten */
+.service-chevron {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  transform: rotate(45deg);
+}
+
+.services-controls {
+  gap: 36px;
+  margin-top: 36px;
+}
+
+.service-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 99px;
+  border: 1px solid #4b4b4b;
+  box-shadow: 0px 4px 17px 0px #00000014;
+  padding: 0;
+  color: #4b4b4b;
+  background: transparent;
+}
+
+.service-arrow .service-chevron {
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+}
+
+.service-arrow .service-chevron-left {
+  transform: rotate(-135deg);
+  margin-left: 6px;
+  margin-right: 0;
+}
+.service-consultation {
+  font-family: "be vietnam pro", sans-serif;
+  font-size: 18px;
+  padding: 8px 16px;
+  width: 152px;
+  height: 27px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+.services-section button:focus-visible {
+  outline: 2px solid #1b4788;
+  outline-offset: 4px;
+}
