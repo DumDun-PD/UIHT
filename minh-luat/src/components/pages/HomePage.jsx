@@ -1,5 +1,6 @@
 import Header from '../common/Header.jsx'
 import HeroSection from '../home/HeroSection.jsx'
+import ServiceSection from '../home/ServiceSection.jsx'
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
         <Header />
         <HeroSection />
       </div>
+      <ServiceSection />
     </>
   )
 }
