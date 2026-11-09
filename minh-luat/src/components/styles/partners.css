@@ -1,0 +1,154 @@
+.partners-section {
+  height: 786px;
+  border-bottom: 2px solid #eeeeee;
+  padding: 72px 0;
+  gap: 3px;
+}
+.partners-section > .container {
+  width: 1360px;
+  max-width: 1360px;
+}
+.partners-title {
+  margin: 0 0 3px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -3%;
+  color: #1b4788;
+  text-align: center;
+}
+.partners-introduction {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  height: 85px;
+}
+.partners-logo {
+  width: 1360px;
+  height: 74px;
+  margin-top: 36px;
+  gap: 24px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.partner-logo {
+  max-width: 100%;
+  height: 50px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  flex-shrink: 0;
+}
+.logo-true {
+  width: 137px;
+}
+.logo-phunu {
+  width: 234px;
+}
+.logo-vtc {
+  width: 211.16px;
+}
+.logo-thanhnien {
+  width: 227px;
+}
+.logo-dantri {
+  width: 169px;
+}
+.logo-vnexpress {
+  width: 210px;
+}
+
+.testimonials-frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 36px auto 0;
+  width: 1604px;
+  height: 336px;
+}
+.testimonials-list {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  border-radius: 12px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.testimonials-viewport {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 350px;
+  min-height: 336px;
+  padding: 24px;
+  margin: 0;
+}
+
+.testimonials-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #4b4b4b;
+  border-radius: 50%;
+  color: #4b4b4b;
+  background: #fff;
+}
+
+.testimonial-text {
+  margin: 0 0 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
+  overflow: hidden;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #1f1f1f;
+}
+
+.testimonial-author {
+  gap: 16px;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-top: auto;
+  min-height: 48px;
+  flex-shrink: 0;
+}
+.testimonial-author img {
+  display: block;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testimonial-author .testimonial-avatar-hai {
+  object-position: left center;
+}
+.testimonial-author .testimonial-avatar-huong {
+  object-position: center 25%;
+}
+.testimonial-author p {
+  margin: 0;
+  color: #4b4b4b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+.testimonial-author strong {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
