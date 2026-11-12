@@ -9,19 +9,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   font-family: inherit;
 }
+
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
   outline: 2px solid #fff;
   outline-offset: 6px;
 }
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
