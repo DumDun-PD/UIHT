@@ -1,5 +1,6 @@
 import Header from '../common/Header.jsx'
 import AboutSection from '../home/AboutSection.jsx'
+import ContactSection from '../home/ContactSection.jsx'
 import FAQSection from '../home/FAQSection.jsx'
 import HeroSection from '../home/HeroSection.jsx'
 import PartnerSection from '../home/PartnerSection.jsx'
@@ -16,6 +17,7 @@ export default function HomePage() {
       <AboutSection />
       <PartnerSection />
       <FAQSection />
+      <ContactSection />
     </>
   )
 }

@@ -1,0 +1,102 @@
+.contact-section {
+  height: 722px;
+  margin-inline: auto;
+  padding-top: 93px;
+  color: #fff;
+  background: linear-gradient(176.7deg, #2b3267 -0.06%, #080b14 101.16%);
+}
+
+.contact-section > .container {
+  width: 1360px;
+  max-width: 1360px;
+}
+
+.contact-title {
+  margin: 0 0 36px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.contact-content {
+  gap: 49px;
+}
+
+.contact-map {
+  flex: 0 0 615px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.contact-map img {
+  object-fit: cover;
+  object-position: left bottom;
+}
+
+.contact-information {
+  flex: 0 0 696px;
+}
+
+.contact-introduction {
+  margin: 0 0 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.contact-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 340px);
+  column-gap: 16px;
+  row-gap: 24px;
+}
+.contact-input,
+.contact-service,
+.contact-message {
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.contact-input,
+.contact-service {
+  height: 48px;
+  padding: 11px 15px;
+}
+
+.contact-service {
+  padding-right: 40px;
+  background-size: 12px 10px;
+}
+
+.contact-input::placeholder,
+.contact-message::placeholder {
+  color: #1f1f1f;
+  opacity: 1;
+}
+
+.contact-message {
+  grid-column: 1 / -1;
+  height: 110px;
+  min-height: 110px;
+  padding: 11px 15px;
+  resize: none;
+}
+
+.contact-send {
+  gap: 12px;
+  width: 167px;
+  height: 48px;
+  margin-top: 26px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.contact-send img {
+  filter: brightness(0) invert(1);
+}
