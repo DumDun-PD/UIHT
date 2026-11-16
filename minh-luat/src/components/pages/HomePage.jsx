@@ -3,6 +3,7 @@ import AboutSection from '../home/AboutSection.jsx'
 import ContactSection from '../home/ContactSection.jsx'
 import FAQSection from '../home/FAQSection.jsx'
 import HeroSection from '../home/HeroSection.jsx'
+import NewSection from '../home/NewSection.jsx'
 import PartnerSection from '../home/PartnerSection.jsx'
 import ServiceSection from '../home/ServiceSection.jsx'
 
@@ -18,6 +19,7 @@ export default function HomePage() {
       <PartnerSection />
       <FAQSection />
       <ContactSection />
+      <NewSection />
     </>
   )
 }
